@@ -1,0 +1,7 @@
+Cores utilizadas:
+    #7D0A0A;
+    #EBE3D5;
+
+Fontes utilizadas:
+    "Prata", serif
+    "Italiana", sans-serif
