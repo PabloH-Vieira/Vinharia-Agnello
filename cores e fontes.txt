@@ -1,7 +1,8 @@
 Cores utilizadas:
     #7D0A0A;
     #EBE3D5;
+    #730014;
 
 Fontes utilizadas:
     "Prata", serif
-    "Italiana", sans-serif
+    "Montserrat", sans-serif
