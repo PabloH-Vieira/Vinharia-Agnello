@@ -6,6 +6,7 @@ botaoMaior.addEventListener('click', () => {
     botaoMaior.style.display = 'none';
     botaoMenor.style.display = 'none';
     conteudoSite.style.display = 'block';
+    document.querySelector('.idade-button-container').style.backgroundImage = 'none';
 });
 
 botaoMenor.addEventListener('click', () => {
@@ -15,5 +16,6 @@ botaoMenor.addEventListener('click', () => {
     } else {
         botaoMenor.style.display = 'none';
         conteudoSite.style.display = 'block';
+        document.querySelector('.idade-button-container').style.backgroundImage = 'none';
     }
 });

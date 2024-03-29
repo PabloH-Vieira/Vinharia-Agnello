@@ -15,7 +15,8 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: white;
+    background-image: url('../img/botao_bg.png');
+    background-size: cover;
 }
 
 .idade-button {
