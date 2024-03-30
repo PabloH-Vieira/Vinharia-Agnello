@@ -106,6 +106,8 @@ footer h5{
     background-color: #730014;
     color: white;
     align-items: center;
+    position:fixed;
+    width: 100%;
 }
 
 #logo{
@@ -128,12 +130,47 @@ footer h5{
     padding: 10px;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
+    cursor: pointer;
 }
+
+#menu li ul{
+    display: none;
+}
+
+#tipo:hover ul{
+    margin: 0 auto;
+    padding: 5px;
+    display:block;
+    background-color: #EBE3D5;
+    color: #730014;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 10px;
+    width: 80px;
+}
+
+#harmonizacoes:hover ul{
+    margin: 0 auto;
+    display:block;
+    padding: 5px;
+    background-color: #EBE3D5;
+    color: #730014;
+    cursor: pointer;
+    position: fixed;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+}
+
 
 #header input{
     justify-content: right;
     position: relative;
     float: right;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
 }
 
 #banner{
