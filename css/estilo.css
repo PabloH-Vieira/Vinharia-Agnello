@@ -64,6 +64,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    width: 1000px;
+}
+
 ul, li, p{
     list-style: none;
     margin: 0px;
@@ -78,41 +82,23 @@ h1{
     color: #222831;
 }
 
-footer{
-    margin-top: 10vh;
-    align-items:end;
-    padding: 0px;
-    height: 30vh;
-    background-color: #730014;
-    color: white;
-}
-
-footer img{
-    margin-left: 5px;
-    display: block;
-    height: 25vh;
-}
-
-footer h5{
-    font-size: 0.8rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#header{
+#header {
     display: flex;
+    flex-direction: column; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #730014;
     color: white;
-    align-items: center;
+    padding: 10px; 
 }
 
-#logo{
-    margin: 0px;
-    padding: 0px;
-    height: 65px;
+#logo {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 10px; 
 }
+
 
 #menu{
     display: flex;
@@ -166,6 +152,10 @@ footer h5{
     max-width: 225px;
 }
 
+.card{
+    width: 10px;
+}
+
 #premium {
     display: flex;
     max-width: 100%;
@@ -202,4 +192,25 @@ footer h5{
 .preco{
     padding: 5px;
     font-size: 1.5rem;
+}
+
+footer{
+    margin-top: 10vh;
+    align-items:end;
+    padding: 0px;
+    height: 30vh;
+    background-color: #730014;
+    color: white;
+}
+
+footer img{
+    margin-left: 5px;
+    display: block;
+    height: 25vh;
+}
+
+footer h5{
+    font-size: 0.8rem;
+    margin: 0 auto;
+    text-align: center;
 }
