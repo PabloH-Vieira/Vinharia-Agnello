@@ -54,10 +54,11 @@
     height: 100%;
 }
 
-body, main{
+body, #main{
     margin: 0px;
     padding: 0px;
     background-color: #EBE3D5;
+    height: auto;
 }
 
 a{
@@ -84,28 +85,34 @@ h1{
 
 #header {
     display: flex;
-    flex-direction: column; 
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
     background-color: #730014;
-    color: white;
-    padding: 10px; 
     width: 100%;
-    position: fixed;
+    margin: 0 auto;
 }
 
 #logo {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    max-width: 100%;
-    margin-bottom: 10px; 
+    max-width: 100%; 
 }
 
+#navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 #menu{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #730014;
+    color: white;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #menu li{
@@ -126,28 +133,28 @@ h1{
 
 #menu li:hover ul{
     margin: 0 auto;
-    padding: 5px;
     display:block;
     background-color: #EBE3D5;
     color: #730014;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     margin-top: 10px;
     width: 100%;
 }
 
-#header input{
-    justify-content: right;
-    position: relative;
-    float: right;
-    margin-right: 10px;
+#menu li:hover ul li{
+    padding: 5px;
+}
+
+#menu input{
+    right: 10px;
     padding: 10px;
     border-radius: 15px;
     border-style: none;
+    position: absolute;
 }
 
 #banner{
-    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
