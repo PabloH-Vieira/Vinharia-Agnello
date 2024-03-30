@@ -1,9 +1,0 @@
-Cores utilizadas:
-    #7D0A0A;
-    #EBE3D5;
-    #730014;
-    #0e7d0a;
-
-Fontes utilizadas:
-    "Prata", serif
-    "Montserrat", sans-serif
