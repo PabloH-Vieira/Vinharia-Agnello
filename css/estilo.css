@@ -106,8 +106,8 @@ footer h5{
     background-color: #730014;
     color: white;
     align-items: center;
-    position:fixed;
     width: 100%;
+    position: fixed;
 }
 
 #logo{
@@ -135,9 +135,10 @@ footer h5{
 
 #menu li ul{
     display: none;
+    margin: 0;
 }
 
-#tipo:hover ul{
+#menu li:hover ul{
     margin: 0 auto;
     padding: 5px;
     display:block;
@@ -146,22 +147,8 @@ footer h5{
     cursor: pointer;
     position: fixed;
     margin-top: 10px;
-    width: 80px;
+    width: 100%;
 }
-
-#harmonizacoes:hover ul{
-    margin: 0 auto;
-    display:block;
-    padding: 5px;
-    background-color: #EBE3D5;
-    color: #730014;
-    cursor: pointer;
-    position: fixed;
-    text-align: center;
-    margin-top: 10px;
-    width: 200px;
-}
-
 
 #header input{
     justify-content: right;
@@ -174,6 +161,7 @@ footer h5{
 }
 
 #banner{
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
