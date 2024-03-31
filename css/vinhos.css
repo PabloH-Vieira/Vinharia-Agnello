@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 #main {
@@ -55,15 +54,16 @@ footer h5{
     font-size: 0.8rem;
     margin: 0 auto;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 #header{
     display: flex;
+    justify-content: center; 
     align-items: center;
-    justify-content: space-between;
     background-color: #730014;
-    color: white;
-    align-items: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #header > ul, li, p{
@@ -82,10 +82,21 @@ footer h5{
     height: 65px;
 }
 
+#header #navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 #menu{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #730014;
+    color: white;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #menu li{
@@ -96,12 +107,39 @@ footer h5{
     padding: 10px;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
-#header input{
-    justify-content: right;
-    position: relative;
-    float: right;
+#menu li ul{
+    display: none;
+    margin: 0;
+}
+
+#menu li:hover ul{
+    margin: 0 auto;
+    display:block;
+    background-color: #EBE3D5;
+    color: #730014;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#menu li:hover ul li{
+    padding: 5px;
+}
+
+#menu li:hover ul li:hover{
+    background-color: #c2bbb0;
+    margin: 0 auto;
+}
+
+#menu input{
+    right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
 }
 
 .pagvinhos{
@@ -145,6 +183,7 @@ footer h5{
 }
 
 .descvinho .descvinho ul, li{
+    font-family: "Montserrat", sans-serif;
     list-style-type: disc;
     list-style-position: inside;
     font-size: 1rem;
@@ -155,4 +194,26 @@ footer h5{
     padding: 5px;
     font-size: 1.5rem;
     color:#730014
+}
+
+.comprar{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px; 
+    cursor: pointer;
+    background-color: #2d9421;
+    color: white;
+}
+
+.pagvinhos .comprar p, .pagvinhos .preco p{
+    font-family: "Montserrat", sans-serif;
+}
+
+.comprar:hover{
+    background-color: #1a7310;
 }

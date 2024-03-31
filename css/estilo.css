@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
 
 
 
@@ -59,28 +61,6 @@ body, #main{
     padding: 0px;
     background-color: #EBE3D5;
     height: auto;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    width: 1000px;
-}
-
-ul, li, p{
-    list-style: none;
-    margin: 0px;
-    font-size: 1.2rem;
-    padding: 0px;
-}
-
-h1{
-    margin-top: 20px;
-    text-align: center;
-    font-family: "Prata", serif;
-    color: #222831;
 }
 
 #header {
@@ -146,12 +126,60 @@ h1{
     padding: 5px;
 }
 
+#menu li:hover ul li:hover{
+    background-color: #c2bbb0;
+    margin: 0 auto;
+}
+
 #menu input{
     right: 10px;
     padding: 10px;
     border-radius: 15px;
     border-style: none;
     position: absolute;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    width: 1000px;
+}
+
+ul, li, p{
+    list-style: none;
+    margin: 0px;
+    font-size: 1.2rem;
+    padding: 0px;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Prata", serif;
+    color: #222831;
+}
+
+footer{
+    margin-top: 10vh;
+    align-items:end;
+    padding: 0px;
+    height: 30vh;
+    background-color: #730014;
+    color: white;
+}
+
+footer img{
+    margin-left: 5px;
+    display: block;
+    height: 25vh;
+}
+
+footer h5{
+    font-size: 0.8rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #banner{
@@ -181,12 +209,16 @@ h1{
 }
 
 #pascoa > div img{
-    max-width: 225px;
+    margin-top: 10px;
+    max-width: 200px;
 }
 
 .card{
-    width: 10px;
+    background-color: #7D0A0A;
+    padding-bottom: 10px;
+    border-radius: 15px;
 }
+
 
 #premium {
     display: flex;
@@ -204,7 +236,8 @@ h1{
 }
 
 #premium div img{
-    max-width: 225px;
+    margin-top: 10px;
+    max-width: 200px;
 }
 
 .legenda, .preco{
@@ -226,23 +259,40 @@ h1{
     font-size: 1.5rem;
 }
 
-footer{
-    margin-top: 10vh;
-    align-items:end;
-    padding: 0px;
-    height: 30vh;
-    background-color: #730014;
+.sabermais{
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px; 
+    cursor: pointer;
+}
+
+.sabermais p{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.sabermais:hover{
+    background-color: #d6d6d6;
+}
+
+.comprar{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px; 
+    cursor: pointer;
+    background-color: #2d9421;
     color: white;
 }
 
-footer img{
-    margin-left: 5px;
-    display: block;
-    height: 25vh;
-}
-
-footer h5{
-    font-size: 0.8rem;
-    margin: 0 auto;
-    text-align: center;
+.comprar:hover{
+    background-color: #1a7310;
 }
