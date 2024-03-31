@@ -161,27 +161,6 @@ h1{
     color: #222831;
 }
 
-footer{
-    margin-top: 10vh;
-    align-items:end;
-    padding: 0px;
-    height: 30vh;
-    background-color: #730014;
-    color: white;
-}
-
-footer img{
-    margin-left: 5px;
-    display: block;
-    height: 25vh;
-}
-
-footer h5{
-    font-size: 0.8rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
 #banner{
     display: flex;
     align-items: center;
@@ -295,4 +274,25 @@ footer h5{
 
 .comprar:hover{
     background-color: #1a7310;
+}
+
+footer{
+    margin-top: 10vh;
+    align-items:end;
+    padding: 0px;
+    height: 30vh;
+    background-color: #730014;
+    color: white;
+}
+
+footer img{
+    margin-left: 5px;
+    display: block;
+    height: 25vh;
+}
+
+footer h5{
+    font-size: 0.8rem;
+    margin: 0 auto;
+    text-align: center;
 }
